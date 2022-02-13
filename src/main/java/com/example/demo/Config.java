@@ -20,4 +20,9 @@ public class Config {
     public String hello() {
         return "Hello";
     }
+
+    @Bean
+    public String helloMain() {
+        return "Hello Main";
+    }
 }
