@@ -21,6 +21,10 @@ public class Config {
         return 5;
     }
 
+    public String hello() {
+        return "Hello";
+    }
+
     @Bean
     public String helloNew() {
         return "Hello new";
