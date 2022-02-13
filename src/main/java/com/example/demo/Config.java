@@ -20,4 +20,9 @@ public class Config {
     public Integer minAge() {
         return 5;
     }
+
+    @Bean
+    public String helloNew() {
+        return "Hello new";
+    }
 }
