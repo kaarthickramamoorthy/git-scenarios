@@ -15,4 +15,9 @@ public class Config {
         testMap.put("Hi","Hello");
         return testMap;
     }
+
+    @Bean
+    public Integer minAge() {
+        return 5;
+    }
 }
