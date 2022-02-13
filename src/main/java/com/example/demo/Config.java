@@ -29,4 +29,9 @@ public class Config {
     public String helloMain() {
         return "Hello Main";
     }
+
+    @Bean
+    public String helloNew() {
+        return "Hello new";
+    }
 }
