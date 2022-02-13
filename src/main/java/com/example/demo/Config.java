@@ -20,4 +20,8 @@ public class Config {
     public Integer minAge() {
         return 5;
     }
+
+    public String hello() {
+        return "Hello";
+    }
 }
