@@ -26,6 +26,11 @@ public class Config {
     }
 
     @Bean
+    public String helloMain() {
+        return "Hello Main";
+    }
+
+    @Bean
     public String helloNew() {
         return "Hello new";
     }
