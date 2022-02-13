@@ -17,6 +17,10 @@ public class Config {
     }
 
     @Bean
+    public Integer minAge() {
+        return 5;
+    }
+
     public String hello() {
         return "Hello";
     }
