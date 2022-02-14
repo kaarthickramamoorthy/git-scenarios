@@ -34,4 +34,9 @@ public class Config {
     public String helloNew() {
         return "Hello new";
     }
+
+    @Bean
+    public String helloNewAfterStash() {
+        return "Hello new";
+    }
 }
